@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Error</title>
+    {{>header_links}}
+    <link rel="shortcut icon" href="images/errorFavicon.png" type="image/png">
+</head>
+<body>
+   <div class="container-fluid main_header">
+        <div class="row">
+            <div class="col-md-10 col-12 mx-auto">
+                <div class="row">
+                    <div class="col-md-12 col-12 mx-auto  main_header_left align-items-center">
+                        <figure class="errImg">
+                            <img src="images/404.jpg" alt="Nikky" class="img-fluid" title="404 Error">
+                        </figure>  
+                        <p style="margin-top:14rem;">Welcome to Nikky Blinder's World</p>
+                        <h1>{{errorMessage}}</h1>
+                        <a  href="/" ><button>Go Back</button></a>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

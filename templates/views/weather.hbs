@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather app</title>
+    {{>header_links}}
+        <link rel="shortcut icon" href="images/favicon.webp" type="image/webp">
+</head>
+<body>
+    {{>navbar}}
+
+    <div class="container-fluid main_header">
+        <div class="row">
+            <div class="col-md-10 col-12 mx-auto ">
+                <div class="main_content">
+                    <form class="temp_form">
+                        <input type="text" id="place" placeholder="Enter place name" autocomplete="off">
+                        <input type="submit" value="Search" id="submit_btn">
+                    </form>
+                </div>
+                <div class="temp_info">
+                   <div class="top_layer">
+                       <p id="day"></p>
+                       <p id="today_date"></p>
+                   </div>
+                    <div class="main_layer">
+                        <p id="city_country"></p>
+                        <div class="middle_layer data_hide">
+                            <p id="temp"><span id="span_text" ></span><sup>o</sup>C</p>
+                            <p id="temp_status"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    {{>footer}}
+    <script src="js/main.js"></script>
+</body>
+</html>
