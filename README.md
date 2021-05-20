@@ -2,7 +2,7 @@
 <h2>About</h2>
 <p>This website has weather link which take you to the weather page, where you can enter place name of whose you want to check weather</p>
 <p>After searching place for weather, reponses will show you current temperature, weather status, city name and country.
-<h2>various application and modules used</h2>
+<h2>Various application and modules used</h2>
 <ol>
 <li>NodeJs was used as Javascript Runtime engine</li>
 <li>ExpressJS was used as NodeJS server</li>
