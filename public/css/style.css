@@ -133,7 +133,7 @@ footer p{
 .main_content .temp_form{
     position: relative;
     padding: 2rem;
-    width: 60%;
+    width: 70%;
     margin:2rem auto;
 }
 .main_content .temp_form input[type="text"]{
@@ -237,10 +237,33 @@ footer p{
 
     /* weather page */
     .temp_info{
+        width: auto;
+    }
+    .main_content{
         width: 100%;
     }
-    .temp_info{
+    .main_content .temp_form input[type="text"]{
         width: 100%;
+        padding: 0.5rem 1rem 0.5rem 1rem ;
+        background-color: #1e272e;
+        color: white;
+        border:none;
+        outline: none;
+        border-radius: 1.8rem;
+        font-size: 1rem;
+    }
+    .main_content .temp_form input[type="submit"]{
+        position: absolute;
+        top: 2.3rem;
+        right: 2.3rem;
+        bottom: 2.3rem;
+        border: none;
+        outline: none;
+        border-radius: 1.6rem;
+        color: white;
+        font-size: 1rem;
+        padding: 0rem 1rem;
+        background-color: var(--main-color);
     }
 }
 
